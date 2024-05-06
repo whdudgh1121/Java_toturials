@@ -73,3 +73,17 @@ public class ExceptionDemo1 {
         a.z(2, 1);
     }
 }
+
+//예외의 종류는 Throwable, Error, Exception, Runtime Exception
+//에러 클래스의 상속관계는 
+//ArithmeticExcrption -> RuntimeException -> Exception -> Throwable
+//IOException -> Exception -> Throwable
+//Error -> Throwable
+
+
+//IOException은 checked
+//ArithmeticException은 unchecked (Error도 unchecked)
+
+//checked 예외는 에측 가능한 환경오류(사용자 오류)
+//unchecked오류는 시스템오류
+
